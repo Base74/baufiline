@@ -25,11 +25,17 @@ i {
     padding:10px
 }
 
-.ym-gbox-center {
-    border:1px solid #eee !important;
+#grid-zinstabelleTable > .z-table-body > div {
+    border:1px solid #ddd !important;
+    color: #4e596b;
 }
 
-.ym-fbox-heading {
+#grid-zinstabelleTable .ym-fbox.max-width-450 {
+    margin-left: 8px;
+}
+
+
+.ym-gbox-center .ym-fbox-heading {
     font-size:3em !important;
     font-weight: 200 !important;
     margin:0 !important;
@@ -63,6 +69,22 @@ i {
     background:#1B57A1 !important;
     color:#fff;
 }
+
+
+.ym-form .ym-fbox-heading {
+    font-size: 107.7%;
+    font-weight: 400;
+}
+
+.ym-form .ym-fbox-heading {
+    color: #4e596b;
+}
+
+.ym-form > div > div:nth-child(5) .ym-fbox.max-width-450 {
+    margin-left:8px;
+}
+
+
 
 .ym-form {
     background: #fff none repeat scroll 0 0;
