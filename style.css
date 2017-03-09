@@ -1,4 +1,13 @@
-﻿
+﻿/*
+Theme Name: Baufiline
+Theme URI: http://www.baufiline.de/
+Author: Baufiline
+Author URI: http://www.baufiline.de/
+Version: 1.0.0
+
+*/
+
+
 body {
     color: #4e596b !important;
     font-family: "Raleway",sans-serif;
@@ -6,29 +15,63 @@ body {
     font-weight: 400;
     line-height: 1.56em;
 }
+
+i{
+    color: #4e596b !important;
+}
+
 .page-title {
-    background: #fff none repeat scroll 0 0;
-    border-color: #fff;
-    border-radius: 0;
-    border-style: none;
-    box-shadow: none;
-    font-size: 1.6em;
+    display:none;
+}
+
+.page-title span {
+    display:none !important;
+}
+
+.ym-form {
+    border:0;
+    background:#fff;
+    box-shadow:none;
+}
+
+.ym-wbox {
+    padding:0;
+}
+
+.ym-form label, .ym-form .ym-label {
+    color: #4e596b;
     text-shadow: none;
 }
-.page-title span {
-    display: none !important;
+
+.ym-form label, .ym-form .ym-label {
+    color: #4e596b;
+    font-size: 0.9em;
+    font-weight: 600;
+    line-height: 1.5;
+    padding-top: 0.25em;
+    text-shadow: none;
 }
-.ym-form {
-    background: #fff none repeat scroll 0 0;
-    border: 0 none;
-    box-shadow: none;
+
+.ym-form input, .ym-form textarea {
+    margin-top: 5px;
+    padding: 10px;
 }
-.ym-wbox {
+
+.ym-form span.symbols, .ym-form span.df-symbols {
+    padding: 15px 0;
 }
-.p-panel-content {
+
+
+.z-table .z-table-head .z-table-content .ym-gbox:nth-child(2n+1), .z-table .z-table-body .z-table-content .ym-gbox:nth-child(2n+1) {
     background-color: #fff;
-    border-width: 0;
 }
+
+.p-panel-content {
+    background-color:#fff;
+    border: 1px solid #ddd;
+}
+
+
 a {
     color: #4e596b;
     text-decoration: none;
@@ -60,6 +103,7 @@ h3 {
     line-height: 1.56;
     margin-top: 0;
 }
+
 h4 {
     color: #8fa3ab;
     font-size: 1.5rem;
@@ -67,6 +111,7 @@ h4 {
     line-height: 1.56;
     padding: 10px 20px;
 }
+
 h5 {
     color: #647288;
     font-size: 1rem;
