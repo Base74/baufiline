@@ -8,6 +8,7 @@ Version: 1.0.0
 */
 
 
+
 body {
     color: #4e596b !important;
     font-family: "Raleway",sans-serif;
@@ -20,13 +21,19 @@ i{
     color: #4e596b !important;
 }
 
-.page-title {
+.page-title,
+#footer {
     display:none;
 }
 
 .page-title span {
     display:none !important;
 }
+
+#annahmenLink {
+    background:red;
+}
+
 
 .ym-form {
     border:0;
@@ -59,6 +66,24 @@ i{
 
 .ym-form span.symbols, .ym-form span.df-symbols {
     padding: 15px 0;
+}
+
+.ym-form input, .ym-form textarea, .ym-form select {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    line-height: 1em;
+    border-radius:0;
+    padding:10px;
+}
+
+
+.ym-form > div > div:nth-child(5){
+    margin:-10px -10px 0 -10px;
+}
+
+.ym-form > div > div:nth-child(5)> div{
+    background:#eee;
+    border:0
 }
 
 
