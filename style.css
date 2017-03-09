@@ -18,6 +18,41 @@ i {
 #annahmenLink {
     background: red none repeat scroll 0 0;
 }
+
+#grid-zinstabelleTable > div {
+
+    box-sizing:border-box;
+    padding:10px
+}
+
+#grid-zinstabelleTable > div > div {
+    border:1px solid #eee;
+}
+
+.ym-fbox-heading {
+    font-size:2em !important;
+}
+
+.z-table-head > div{
+    border:0 none !important;
+}
+
+.z-table-content-selected {
+    background:#1B57A1;
+    color:#fff;
+}
+
+.z-table-content-selected  .ym-fbox-heading {
+    font-size:2em !important;
+    color:#fff !important;
+}
+
+.z-table-content-selected .ym-gbox:nth-child(2n+1),
+.z-table-content-selected .ym-gbox:nth-child(2n+1) {
+    background:#1B57A1 !important;
+    color:#fff;
+}
+
 .ym-form {
     background: #fff none repeat scroll 0 0;
     border: 0 none;
