@@ -30,7 +30,9 @@ i {
 }
 
 .ym-fbox-heading {
-    font-size:2em !important;
+    font-size:3em !important;
+    font-weight: 200 !important;
+    margin:0 !important;
 }
 
 .z-table-head > div{
@@ -43,9 +45,18 @@ i {
 }
 
 .z-table-content-selected  .ym-fbox-heading {
-    font-size:2em !important;
+    font-size:3em !important;
     color:#fff !important;
+    font-weight: 200;
+    margin: 0;
 }
+
+
+.z-table-content-selected .ym-gbox{
+    font-weight:600;
+}
+
+
 
 .z-table-content-selected .ym-gbox:nth-child(2n+1),
 .z-table-content-selected .ym-gbox:nth-child(2n+1) {
