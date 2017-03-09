@@ -25,8 +25,8 @@ i {
     padding:10px
 }
 
-#grid-zinstabelleTable > div > div {
-    border:1px solid #eee;
+.ym-gbox-center {
+    border:1px solid #eee !important;
 }
 
 .ym-fbox-heading {
