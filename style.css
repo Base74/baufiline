@@ -1,14 +1,4 @@
-﻿/*
-Theme Name: Baufiline
-Theme URI: http://www.baufiline.de/
-Author: Baufiline
-Author URI: http://www.baufiline.de/
-Version: 1.0.0
-
-*/
-
-
-
+﻿
 body {
     color: #4e596b !important;
     font-family: "Raleway",sans-serif;
@@ -16,40 +6,30 @@ body {
     font-weight: 400;
     line-height: 1.56em;
 }
-
-i{
+i {
     color: #4e596b !important;
 }
-
-.page-title,
-#footer {
-    display:none;
+.page-title, #footer {
+    display: none;
 }
-
 .page-title span {
-    display:none !important;
+    display: none !important;
 }
-
 #annahmenLink {
-    background:red;
+    background: red none repeat scroll 0 0;
 }
-
-
 .ym-form {
-    border:0;
-    background:#fff;
-    box-shadow:none;
+    background: #fff none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
 }
-
 .ym-wbox {
-    padding:0;
+    padding: 0;
 }
-
 .ym-form label, .ym-form .ym-label {
     color: #4e596b;
     text-shadow: none;
 }
-
 .ym-form label, .ym-form .ym-label {
     color: #4e596b;
     font-size: 0.9em;
@@ -58,45 +38,43 @@ i{
     padding-top: 0.25em;
     text-shadow: none;
 }
-
 .ym-form input, .ym-form textarea {
     margin-top: 5px;
     padding: 10px;
 }
-
 .ym-form span.symbols, .ym-form span.df-symbols {
     padding: 15px 0;
 }
-
 .ym-form input, .ym-form textarea, .ym-form select {
     border: 1px solid #ddd;
+    border-radius: 0;
     box-shadow: none;
     line-height: 1em;
-    border-radius:0;
-    padding:10px;
+    padding: 10px;
 }
-
-
-.ym-form > div > div:nth-child(5){
-    margin:-10px -10px 0 -10px;
+.ym-form > div > div:nth-child(5) {
+    margin: -9px -5px 0;
 }
-
-.ym-form > div > div:nth-child(5)> div{
-    background:#eee;
-    border:0
+.ym-form > div > div:nth-child(5) > div {
+    background: none;
+    border-color: #ddd -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px 0 0;
 }
-
-
+.ym-form > div > div:nth-child(5) > div label, .ym-form > div > div:nth-child(5) > div .ym-label {
+    font-weight: 400;
+}
+.ym-form > div > div:nth-child(5) > div.symbols, .ym-form > div > div:nth-child(5) > div .df-symbols {
+    padding: 4px 0;
+}
 .z-table .z-table-head .z-table-content .ym-gbox:nth-child(2n+1), .z-table .z-table-body .z-table-content .ym-gbox:nth-child(2n+1) {
     background-color: #fff;
 }
-
 .p-panel-content {
-    background-color:#fff;
+    background-color: #fff;
     border: 1px solid #ddd;
 }
-
-
 a {
     color: #4e596b;
     text-decoration: none;
@@ -128,7 +106,6 @@ h3 {
     line-height: 1.56;
     margin-top: 0;
 }
-
 h4 {
     color: #8fa3ab;
     font-size: 1.5rem;
@@ -136,7 +113,6 @@ h4 {
     line-height: 1.56;
     padding: 10px 20px;
 }
-
 h5 {
     color: #647288;
     font-size: 1rem;
