@@ -18,74 +18,57 @@ i {
 #annahmenLink {
     background: red none repeat scroll 0 0;
 }
-
 #grid-zinstabelleTable > div {
-
-    box-sizing:border-box;
-    padding:10px
+    box-sizing: border-box;
+    padding: 10px;
 }
-
 #grid-zinstabelleTable > .z-table-body > div {
-    border:1px solid #ddd !important;
+    border: 1px solid #ddd !important;
     color: #4e596b;
 }
-
 #grid-zinstabelleTable .ym-fbox.max-width-450 {
     margin-left: 8px;
 }
-
-
-.ym-gbox-center .ym-fbox-heading {
-    font-size:3em !important;
+#grid-zinstabelleTable > .z-table-body .ym-fbox-heading {
+    font-size: 3em !important;
     font-weight: 200 !important;
-    margin:0 !important;
+    margin: 0 !important;
 }
-
-.z-table-head > div{
-    border:0 none !important;
+.z-table .z-table-body .z-table-content:hover .ym-gbox:first-child, .z-table .z-table-body .z-table-content:hover::after, .z-table .z-table-body .z-table-content-selected .ym-gbox:first-child, .z-table .z-table-body .z-table-content-selected::after {
+    background-color: transparent;
 }
-
+.z-table-head > div {
+    border: 0 none !important;
+    text-align: left;
+}
 .z-table-content-selected {
-    background:#1B57A1;
-    color:#fff;
+    background: #1b57a1 none repeat scroll 0 0;
+    color: #fff;
 }
-
-.z-table-content-selected  .ym-fbox-heading {
-    font-size:3em !important;
-    color:#fff !important;
+.z-table-content-selected .ym-fbox-heading {
+    color: #fff !important;
+    font-size: 3em !important;
     font-weight: 200;
     margin: 0;
 }
-
-
-.z-table-content-selected .ym-gbox{
-    font-weight:600;
+.z-table-content-selected .ym-gbox {
+    color: #fff;
+    font-weight: 600;
 }
-
-
-
-.z-table-content-selected .ym-gbox:nth-child(2n+1),
-.z-table-content-selected .ym-gbox:nth-child(2n+1) {
-    background:#1B57A1 !important;
-    color:#fff;
+.z-table-content-selected .ym-gbox:nth-child(2n+1), .z-table-content-selected .ym-gbox:nth-child(2n+1) {
+    background: #1b57a1 none repeat scroll 0 0 !important;
+    color: #fff;
 }
-
-
 .ym-form .ym-fbox-heading {
     font-size: 107.7%;
     font-weight: 400;
 }
-
 .ym-form .ym-fbox-heading {
     color: #4e596b;
 }
-
 .ym-form > div > div:nth-child(5) .ym-fbox.max-width-450 {
-    margin-left:8px;
+    margin-left: 8px;
 }
-
-
-
 .ym-form {
     background: #fff none repeat scroll 0 0;
     border: 0 none;
@@ -124,7 +107,7 @@ i {
     margin: -9px -5px 0;
 }
 .ym-form > div > div:nth-child(5) > div {
-    background: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border-color: #ddd;
     border-image: none;
     border-style: solid none none;
