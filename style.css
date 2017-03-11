@@ -41,9 +41,13 @@ i {
     border: 0 none !important;
     text-align: left;
 }
-.z-table-content-selected {
-    background: #1b57a1 none repeat scroll 0 0;
-    color: #fff;
+.z-table .z-table-body .z-table-content:hover .ym-gbox:nth-child(2n+1), .z-table-content .ym-gbox {
+    background: #fff none repeat scroll 0 0;
+    color: #4e596b;
+}
+.z-table-content-selected .ym-gbox {
+    background: #1b57a1 none repeat scroll 0 0 !important;
+    color: #fff !important;
 }
 .z-table-content-selected .ym-fbox-heading {
     color: #fff !important;
@@ -170,4 +174,44 @@ h5 {
     font-weight: 600;
     line-height: 1.56;
     padding: 10px 20px;
+}
+
+
+
+.ym-offer-hlist ul li button, .ym-offer-hlist ul li:hover button, .ym-offer-hlist ul li:focus button, .ym-offer-hlist ul li.active button, .ym-offer-hlist ul li.active:hover button, .ym-offer-hlist ul li.active:focus button, .ym-offer-hlist ul li.disabled button, .ym-offer-hlist ul li.disabled:hover button, .ym-offer-hlist ul li.disabled:focus button {
+    background-color: white;
+    color: #4e596b !important;
+    font-weight: 200;
+    text-shadow: none;
+}
+
+
+.fa-stack {
+    background:#1B57A1;
+    padding:5px;
+    margin-right:10px;
+
+}
+
+.fa-stack i:first-child{
+    display:none;
+
+}
+
+
+.fa-stack  .fa-stack-1x {
+    color:#fff !important;
+    text-shadow:none !important;
+}
+
+.active .hlist-button-label{
+    font-weight:600 !important;
+    color:#9EC53B;
+}
+
+.active .fa-stack {
+    background:#9EC53B;
+    padding:5px;
+    margin-right:10px;
+
 }
