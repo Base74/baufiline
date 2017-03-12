@@ -16,7 +16,8 @@ i {
     display: none !important;
 }
 #annahmenLink {
-    background: red none repeat scroll 0 0;
+    background: #fff none repeat scroll 0 0;
+    text-decoration:underline;
 }
 #grid-zinstabelleTable > div {
     box-sizing: border-box;
@@ -59,6 +60,8 @@ i {
     color: #fff;
     font-weight: 600;
 }
+
+
 .z-table-content-selected .ym-gbox:nth-child(2n+1), .z-table-content-selected .ym-gbox:nth-child(2n+1) {
     background: #1b57a1 none repeat scroll 0 0 !important;
     color: #fff;
@@ -255,4 +258,72 @@ h5 {
     font-weight: 600;
     padding: 5px 10px;
     position: absolute;
+}
+
+select,
+input {
+    color: #4e596b !important;
+}
+
+.df-symbols {
+    padding-top:5px !important;
+}
+
+.ym-form > div > div:nth-child(5) > div {
+    border:0;
+}
+
+.box{
+    border:0;
+    box-shadow:none;
+    background: transparent none repeat;
+}
+
+.note {
+    background: #9AC238 none repeat scroll 0 0;
+    border: 0 none;
+    box-shadow: none;
+    color: #040;
+    margin: -5px;
+    color:#fff;
+    border-radius: 0;
+}
+
+
+
+.ff_notification_success{
+    color:#fff
+}
+
+.ym-form input, .ym-form textarea, .ym-form select, .ym-form span.symbols, .ym-form span.df-symbols {
+    height:auto
+}
+
+#grid-body-bankproducts .grid-body-row-result {
+    border:0;
+    box-shadow:none;
+}
+
+
+#grid-body-bankproducts .grid-body-row-buttons {
+    background:none;
+    border-bottom:1px solid #ddd;
+}
+
+#grid-body-bankproducts .block {
+    border:1px solid #ddd !important;
+    box-shadow:none;
+}
+
+
+#grid-head-bankproducts {
+    background:none;
+    text-shadow:none;
+    font-size:.9em;
+    font-weight:600;
+    border-bottom:3px solid #ddd;
+}
+
+#grid-head-bankproducts > div {
+    border:0 !important;
 }
