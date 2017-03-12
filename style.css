@@ -247,3 +247,12 @@ h5 {
 .loadmask-msg {
     background-color: #fff;
 }
+
+.tooltip {
+    background-color: #9ec53b;
+    color: #fff;
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 5px 10px;
+    position: absolute;
+}
