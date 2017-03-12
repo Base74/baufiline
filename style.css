@@ -363,3 +363,9 @@ input {
     display: none;
     padding: 10px;
 }
+
+#header {
+    display: none;
+    padding: 15px 0 5px;
+    position: relative;
+}
