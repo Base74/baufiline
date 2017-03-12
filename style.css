@@ -283,7 +283,6 @@ input {
     background: #9AC238 none repeat scroll 0 0;
     border: 0 none;
     box-shadow: none;
-    color: #040;
     margin: -5px;
     color:#fff;
     border-radius: 0;
@@ -326,4 +325,41 @@ input {
 
 #grid-head-bankproducts > div {
     border:0 !important;
+}
+
+
+#grid-body-bankproducts .monatliche-rate::after, #grid-body-bankproducts .restbetrag::after, #grid-body-bankproducts .effektivezins, #grid-head_bankproducts .effektivezins {
+    color: #4e596b;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: none;
+    width: 100%;
+}
+
+
+
+#grid-body-bankproducts .monatliche-rate, #grid-body-bankproducts .restbetrag, #grid-body-bankproducts .sollzins {
+    font-size: 3em;
+    font-weight: 200;
+    text-shadow: none;
+}
+
+#grid-body-bankproducts .ym-grid .enduser-messages {
+    background-color: #fff;
+    border-bottom: 5px solid #ddd;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    display: none;
+    padding: 10px;
+}
+
+
+#grid-body-bankproducts .ym-grid .enduser-messages {
+    background-color: #fff;
+    border-top:0;
+    border-bottom: 5px solid #ddd;
+    border-top-style: solid;
+    display: none;
+    padding: 10px;
 }
